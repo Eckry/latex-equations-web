@@ -1,34 +1,43 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { IconClose, IconCopyText, IconEraseText, IconScreenshot, IconTransparency } from './icons'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="tooltipLATEX">
+      <h1>How to use</h1>
+      <ul>
+        <li>
+          <div>
+            <IconClose />
+          </div>
+          <span>Closes the window.</span>
+        </li>
+        <li>
+          <div>
+            <IconEraseText />
+          </div>
+          <span>Erases the text of the input at the top.</span>
+        </li>
+        <li>
+          <div>
+            <IconCopyText />
+          </div>
+          <span>Copies the text of the input at the top.</span>
+        </li>
+        <li>
+          <div>
+            <IconScreenshot />
+          </div>
+          <span>Takes a screenshot of the equation to the clipboard.</span>
+        </li>
+        <li>
+          <div>
+            <IconTransparency />
+          </div>
+          <span>Toggles the window's transparency.</span>
+        </li>
+      </ul>
+    </div>
   )
 }
 
