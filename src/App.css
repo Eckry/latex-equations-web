@@ -28,12 +28,17 @@ h4 {
   max-width: 900px;
 }
 
+<<<<<<< HEAD
 ul, ol {
+=======
+ul {
+>>>>>>> 288b077 (add styles to buttons section)
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
+<<<<<<< HEAD
 .buttons-container {
   display: flex;
   justify-content: center;
@@ -59,4 +64,25 @@ ul, ol {
 .note {
   font-weight: bold;
   color: var(--blue);
+=======
+li {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border: 2px solid var(--blue);
+  padding: 8px;
+  border-radius: 4px;
+  transition: 0.25s ease-in-out;
+}
+
+li:hover {
+  background-color: var(--pink);
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+>>>>>>> 288b077 (add styles to buttons section)
 }
