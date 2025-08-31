@@ -43,3 +43,19 @@ ul, ol {
 .number-highlighted {
   color: var(--yellow);
 }
+
+.equation-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.equation-img {
+  margin: auto;
+  width: 300px;
+}
+
+.note {
+  font-weight: bold;
+  color: var(--blue);
+}

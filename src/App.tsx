@@ -21,6 +21,14 @@ function App() {
         </ul>
       </section>
       <section>
+        <h3>Left and Right click</h3>
+        <p>You can click on the equation rendered to highlight a specific part of the equation, there are two different colors you can use, and you can customize them, the first color works with the left click and the second color with the right click. In the following example the user clicked the x with the left click and the y with right click.</p>
+        <figure className="equation-img-container">
+          <img className="equation-img" src="equation.webp" />
+        </figure>
+        <p><span className="note">Important</span>: This function is experimental and it might behave weirdly.</p>
+      </section>
+      <section>
         <h3>Colors</h3>
         <p>When you open the window's extension, you'll see at the bottom four different colors, like this:</p>
         <div className="buttons-container">
