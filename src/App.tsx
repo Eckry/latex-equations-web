@@ -44,6 +44,29 @@ function App() {
           <li><span className="number-highlighted">4</span>Changes the color of the second highlight color.</li>
         </ol>
       </section>
+      <section>
+        <h3>Grabbing and Resizing modes</h3>
+        <p>
+          You can switch between modes using the keyboard:
+          <ul>
+            <li><b>Ctrl</b> → Toggle <i>Grabbing Mode</i></li>
+            <li><b>Shift</b> → Toggle <i>Resizing Mode</i></li>
+          </ul>
+          Pressing the same key again will return you to Normal Mode.
+        </p>
+        <h4>Resizing Mode</h4>
+        <p>
+          Click and hold the window, then move the mouse to resize it. The window grows or shrinks
+          towards the bottom-right corner.
+        </p>
+
+        <h4>Grabbing Mode</h4>
+        <p>
+          Click and drag the window to move it around the screen. The window will stay within
+          the boundaries of the main window.
+        </p>
+        <p><span className="note">Important</span>: You can’t jump directly from <i>Grabbing</i> to <i>Resizing</i> mode (or the other way around). First go back to <i>Normal</i> mode, then switch to the mode you want.</p>
+      </section>
     </div>
   )
 }
