@@ -1,0 +1,29 @@
+.input-color  {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  pointer-events: none;
+}
+
+.input-color::-webkit-color-swatch {
+  border-radius: 7px;
+  border: 1px solid var(--tertiaryLATEX);
+}
+
+.input-color::-moz-color-swatch {
+  border-radius: 7px;
+  border: 1px solid var(--tertiaryLATEX);
+}
+
+.color-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+

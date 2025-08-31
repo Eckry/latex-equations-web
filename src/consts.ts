@@ -8,3 +8,5 @@ export const buttons: ButtonType[] = [
   { text: "Takes a screenshot of the equation to the clipboard.", Icon: IconScreenshot },
   { text: "Toggles the window's transparency.", Icon: IconTransparency }
 ]
+
+export const colors: string[] = ["#B4FFB3", "#21303C", "#c4ac25", "#a0a7d2"];

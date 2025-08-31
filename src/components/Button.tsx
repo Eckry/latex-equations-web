@@ -1,4 +1,4 @@
-import "./styles/styles.css"
+import "./styles/Button.css"
 
 interface Props {
   Icon: React.ComponentType

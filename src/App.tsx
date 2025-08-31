@@ -1,6 +1,7 @@
 import './App.css'
-import { buttons } from "./consts"
+import { buttons, colors } from "./consts"
 import Button from './components/Button'
+import Color from './components/Color'
 
 function App() {
   return (
@@ -22,13 +23,10 @@ function App() {
       <section>
         <h3>Colors</h3>
         <p>When you open the window's extension, you'll see at the bottom four different colors, like this:</p>
-        <div>
-          <div>
-            <span></span>
-          </div>
-          <div></div>
-          <div></div>
-          <div></div>
+        <div className="buttons-container">
+          {colors.map((color, idx) => {
+            return <Color color={color} number={idx} />
+          })}
         </div>
       </section>
     </div>

@@ -33,3 +33,9 @@ ul {
   gap: 8px;
 }
 
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
