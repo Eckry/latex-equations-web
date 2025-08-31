@@ -1,8 +1,10 @@
-:root {
-  box-sizing: border-box;
-  padding: 0;
+*, *::before, *::after {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+:root {
   --dark-blue: #030017;
   --blue: #471396;
   --pink: #7627ab;
