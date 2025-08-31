@@ -28,6 +28,13 @@ function App() {
             return <Color color={color} number={idx} />
           })}
         </div>
+        <p>I gave them a number starting from one from left to right, in that order, the functionality of the colors is the following:</p>
+        <ol>
+          <li><span className="number-highlighted">1</span>Changes the color of the equation rendered.</li>
+          <li><span className="number-highlighted">2</span>Changes the background color of the window.</li>
+          <li><span className="number-highlighted">3</span>Changes the color of the first highlight color.</li>
+          <li><span className="number-highlighted">4</span>Changes the color of the second highlight color.</li>
+        </ol>
       </section>
     </div>
   )

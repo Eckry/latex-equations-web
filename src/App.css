@@ -27,7 +27,7 @@ h3 {
   max-width: 900px;
 }
 
-ul {
+ul, ol {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -38,4 +38,8 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 8px;
+}
+
+.number-highlighted {
+  color: var(--yellow);
 }
