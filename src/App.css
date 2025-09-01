@@ -66,3 +66,35 @@ ul, ol {
   justify-content: center;
   align-items: center;
 }
+
+
+.fontsize-icon {
+  width: 20px;
+  text-align: center;
+  font-size: 10px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.fontsize-up,
+.fontsize-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: var(--blue-button);
+}
+
+.fontsize-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--blue-button);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
